@@ -1,0 +1,81 @@
+#title{
+  text-align: center
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center
+}
+
+#pic{
+  width: 50%;
+  position: center;
+  margin-left:180px;
+
+}
+
+#name{
+  Text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family:font-family: 'Source Sans Pro', sans-serif;
+}
+
+#quote{
+  text-align:center;
+  font-family:font-family: 'Source Sans Pro', sans-serif;
+   font-size: 25px;
+  color:rgb(247, 5, 187);
+  font-weight: 100px;
+}
+
+body{
+background: url("https://lh3.googleusercontent.com/proxy/S5C9grR6qBBhE9HEUm4-Gx8ywG-XqwH2uXUEd-L1T30CCa4PjMx6qAQAtwt46zVHA1EbyyT1eaIRh6cnthelUzslMlsjC7D1GQFizvS_3hxRngW8WY3Qx_1_cJnL5kCMYNfSDE4zeE67tkd8");
+   background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+    border: double;
+  border-color: black;
+}
+
+#title{
+  color:	rgb(247, 5, 187);
+}
+
+#superlative{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#next{
+  font-size:20px;
+  font-family:'Baloo Thambi 2', cursive;
+  background-color: rgb(134, 5, 181);
+  border-radius: 8px;
+  color: rgb(211,211,211)
+}
+
+#back{
+  font-size:20px;
+  font-family:'Baloo Thambi 2', cursive;
+  color: rgb(211,211,211);
+  background-color: rgb(134, 5, 181);
+  border-radius: 8px;
+}
+
+#card-title{
+  margin:10px;
+    color: pink;
+  font-family:'Baloo Thambi 2', cursive;
+    font-size:20px;
+}
+
+#note{
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 20px
+}
